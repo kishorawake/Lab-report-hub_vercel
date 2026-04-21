@@ -8,12 +8,6 @@ import { analyzeLabReport, getDemoAnalysis, type AnalysisResult } from "@/servic
 
 export const Route = createFileRoute("/")({
   component: IndexPage,
-  head: () => ({
-    meta: [
-      { title: "AI Lab Analyzer — Understand Your Lab Results" },
-      { name: "description", content: "Upload your lab report and get instant AI-powered analysis with clear explanations, health scores, and actionable recommendations." },
-    ],
-  }),
 });
 
 function IndexPage() {

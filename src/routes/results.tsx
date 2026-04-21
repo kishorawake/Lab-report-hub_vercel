@@ -17,12 +17,6 @@ import { useTranslated } from "@/services/translate";
 
 export const Route = createFileRoute("/results")({
   component: ResultsPage,
-  head: () => ({
-    meta: [
-      { title: "Lab Report Analysis — AI Lab Analyzer" },
-      { name: "description", content: "Your AI-powered lab report analysis with health scores, abnormal findings, and actionable recommendations." },
-    ],
-  }),
 });
 
 const stagger = {
